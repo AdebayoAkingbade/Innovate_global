@@ -1,0 +1,9 @@
+.err_container {
+    margin-top: 40px;
+    display: flex;
+    margin-left: 20px;
+  }
+
+  .dot{
+    margin-right: 5px;
+  }
