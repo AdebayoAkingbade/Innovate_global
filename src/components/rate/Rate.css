@@ -1,0 +1,62 @@
+.rate_container {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.err {
+  margin-right: 105px;
+  display: flex;
+}
+
+.zero {
+  margin-right: 105px;
+  display: flex;
+}
+
+.timeout {
+  margin-right: 105px;
+  display: flex;
+}
+
+.dot {
+  height: 15px;
+  position: relative;
+  top: 5px;
+}
+
+.letters > p {
+  color: grey;
+  margin-top: 0px;
+}
+
+.letters > span {
+  letter-spacing: 2px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.stripes{
+    
+}
+
+@media screen and (max-width: 412px) {
+  .err {
+    margin-right: 5px;
+  }
+
+  .zero {
+    margin-right: 5px;
+  }
+
+  .rate_container {
+    text-align: left;
+    margin-left: 2px;
+    margin-top: 20px;
+    display: flex;
+    font-size: 12px;
+  }
+}
